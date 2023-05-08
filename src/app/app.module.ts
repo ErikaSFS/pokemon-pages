@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 
 //Components
 
+import { DetailsComponent } from './components/details/details.component';
+import { ListComponent } from './components/list/list.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent,
-    DetailsComponent
+    DetailsComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
