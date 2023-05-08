@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-details-pokemon',
-  templateUrl: './details-pokemon.component.html',
-  styleUrls: ['./details-pokemon.component.scss']
+  selector: 'app-details',
+  templateUrl: './details.component.html',
+  styleUrls: ['./details.component.scss']
 })
-export class DetailsPokemonComponent {
+export class DetailsComponent {
 
 }
