@@ -1,0 +1,14 @@
+
+.search {
+    background: #fff;
+    color: blue;
+  
+
+   
+    
+    input:focus,
+    &::selection, &::placeholder {
+      box-shadow: none;
+      color: blue;
+    }
+  }
